@@ -1,0 +1,65 @@
+.styled-table {
+    border-collapse: collapse;
+    margin:auto;
+       font-size: 0.9em;
+    font-family: sans-serif;
+     box-shadow: 0 0 20px  black;
+    max-width: 1000px;
+
+}
+.styled-table thead tr {
+    background-color: #4CAF50;
+    color: #ffffff;
+    text-align: left;
+}
+
+.styled-table  th,
+.styled-table  tr {
+    padding: 50 px 100px;
+}
+
+.styled-table tbody tr {
+    border-bottom: 1px #917b7bdd;
+}
+.styled-table tbody tr:nth-of-type(even){
+    background-color: antiquewhite;
+}
+.styled-table tbody tr:last-of-type{
+    border-bottom: #4CAF50 2px solid;
+}
+.btn {
+    font-family: inherit;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 10px 15px;
+    border: none;
+    margin: 4px 2px;
+   
+    border-radius: 5px;
+
+        box-sizing: border-box;
+        display:inline-block;
+        justify-content: flex-end;
+        cursor: pointer;
+  }
+  .btn-edit{
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: flex-end;
+    background-color: #4CAF50;
+  }
+.btn-delete{
+    width: 100%;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: flex-end;
+background-color: blue;
+}
+.btn-contact{
+    background-color:crimson;
+    }
+    .crud{
+        margin-left: 4vw;
+    }
